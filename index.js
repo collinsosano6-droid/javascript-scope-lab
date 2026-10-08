@@ -3,15 +3,16 @@
 
 //variables in global scope
 const burgers = [`Hamburger`, `Cheeseburger`];
-const featuredDrink = [`Strawberry Milkshake`];
+let featuredDrink = `Strawberry Milkshake`;
 
 console.log(burgers);
 console.log(featuredDrink);
 
 function addBurger(){
-    const newBurger = `FlatBurger`;
-   return burgers.push(newBurger);
+    const newBurger = `Flatburger`;
+    return burgers.push(newBurger) ;
 }
+addBurger();
 
 if(true){
     const anotherNewBurger = `Maple Bacon Burger`;
@@ -19,9 +20,8 @@ if(true){
 }
 
 function changeFeaturedDrink (){
-   return featuredDrink[0] = `The JavaShake`;
+   return featuredDrink = `The JavaShake`;
 }
-addBurger();
 changeFeaturedDrink();
 
 console.log(burgers);
