@@ -5,14 +5,14 @@
 const burgers = [`Hamburger`, `Cheeseburger`];
 let featuredDrink = `Strawberry Milkshake`;
 
-console.log(burgers);
-console.log(featuredDrink);
+// console.log(burgers);
+// console.log(featuredDrink);
 
 function addBurger(){
     const newBurger = `Flatburger`;
     return burgers.push(newBurger) ;
 }
-addBurger();
+
 
 if(true){
     const anotherNewBurger = `Maple Bacon Burger`;
@@ -20,10 +20,10 @@ if(true){
 }
 
 function changeFeaturedDrink (){
-   return featuredDrink = `The JavaShake`;
+   featuredDrink = `The JavaShake`;
+   return featuredDrink;
 }
-changeFeaturedDrink();
 
-console.log(burgers);
-console.log(featuredDrink);
+// console.log(burgers);
+// console.log(featuredDrink);
 
